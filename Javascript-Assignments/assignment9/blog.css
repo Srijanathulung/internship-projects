@@ -1,0 +1,14 @@
+body {
+  background-color: teal;
+}
+.blogDiv {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  background-color: grey;
+  color: white;
+}
+.header {
+  color: white;
+  text-align: center;
+}

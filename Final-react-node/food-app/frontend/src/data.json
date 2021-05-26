@@ -1,0 +1,83 @@
+{
+  "meals": [
+    {
+      
+      "id": 1,
+      "name": "PIZZA",
+      "price": 220,
+      "types": ["Chicken pizza, ", "Cheese pizza, ", "Mushroom pizza"],
+      "image_url": "https://static.toiimg.com/thumb/53110049.cms?width=1200&height=900",
+      "ingredients": "ingredients- ketchup, black olive, chicken,cheese,capsicum"
+    },
+    {
+      "id": 2,
+      "name": "BURGER",
+      "price": 170,
+      "types": ["Chicken burger, ", "Cheese burger, ", "Ham burger"],
+      "image_url": "https://natashaskitchen.com/wp-content/uploads/2019/04/Best-Burger-4-500x375.jpg",
+      "ingredients": " ingredients- ketchup, black olive, chicken,cheese,capsicum"
+    },
+    {
+      "id": 3,
+      "name": "SANDWICH",
+      "price": 150,
+      "types": ["Chicken sandwich, ", "Cheese sandwich"],
+      "image_url": "https://assets.kraftwhatscooking.ca/adaptivemedia/rendition/584637_1500x1000.tif?id=78b46f557f01a4bc3bc01ddf97416e2a806563fa&ht=250&wd=375&clid=KRCA",
+      "ingredients": " ingredients- ketchup, black olive, chicken,cheese,capsicum"
+    },
+    {
+      "id": 4,
+      "name": "MOMO",
+      "price": 120,
+      "types": ["Chicken momo, ", "buff momo, ", "veg momo"],
+      "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/nzauwwxzpzxmgnx3f9tn",
+      "ingredients": "ingredients-chicken kima, garlic paste, ginger paste"
+    },
+    {
+      "id": 5,
+      "name": "CHOWMEIN",
+      "price": 180,
+      "types": ["Chicken chowmein, ", "buff chowmein, ", "veg chowmein"],
+      "image_url": "https://b.zmtcdn.com/data/pictures/0/306390/7b3a73032f1bb28110221aee3de8392f.jpg?fit=around|750:500&crop=750:500;*,*",
+      "ingredients": "ingredients- noodles,chicken,onion,capsicum "
+    },
+    {
+      "id": 6,
+      "name": "Spicy-wings",
+      "price": 270,
+      "types": ["Hot wings, ", "Buffalo wings, ", "Extra spicy wings"],
+      "image_url": "https://homechefninja.com/wp-content/uploads/2019/12/Korean-Fried-Chicken-Wings-1-.png"
+    },
+    {
+      "id": 7,
+      "name": "Biryani",
+      "price": 260,
+      "types": ["Chicken biryani, ", "Mutton biryani, ", "Veg biryani"],
+      "image_url": "https://b.zmtcdn.com/data/pictures/5/19187915/e8e00c713e3a546ab675fbbac4333523.jpg?fit=around|750:500&crop=750:500;*,*",
+      "ingredients": "ingredients- oreo,cofee,icecream,milk"
+    },
+    {
+      "id": 8,
+      "name": "French-fries",
+      "price": 180,
+      "types": ["Steak Fries, ", "Waffle Fries, ", "Shoestring Fries"],
+      "image_url": "https://i2.wp.com/www.potatonewstoday.com/wp-content/uploads/2020/06/French-fries2-1.jpg?fit=750%2C500&ssl=1"
+    },
+    {
+      "id": 9,
+      "name": "Sizzler",
+      "price": 310,
+      "types": ["Vegetable Sizzler, ", "Continental Sizzler"],
+      "image_url": "https://b.zmtcdn.com/data/pictures/chains/0/780/ff6738293b4548841998e638b0387f29.jpg?fit=around|750:500&crop=750:500;*,*",
+      "ingredients": "ingredients- milk,beans,sugar,water"
+    },
+    {
+      "id": 10,
+      "name": "STEAK",
+      "price": 350,
+      "types": ["Fish steak, ", "Flank steak"],
+      "image_url": "https://i0.wp.com/www.menstylefashion.com/wp-content/uploads/2017/03/Steak-and-Lobster-mains-ribeye-2.jpg?resize=750%2C500&ssl=1",
+      "ingredients": "ingredients- tomato ketchup,meat,vegetables,capsicum"
+    }
+  ]
+}

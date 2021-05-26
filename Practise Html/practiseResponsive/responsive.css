@@ -1,0 +1,156 @@
+ body{
+    
+    margin:0;.
+    font-family: sans-serif;
+    background-color:red;
+}
+ *{
+box-sizing: border-box;
+}
+
+.main{
+    max-width: 1140px;
+    background-color:#ffff;
+    height:auto;
+    margin: 20px auto;
+    padding: 20px;
+}
+nav{
+    width:100%;
+    background-color: rgb(213, 216, 224);
+    align-items:center ;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    position: sticky;
+    top: 0px;
+  
+}
+.navbar{
+   padding: 10px;
+    }
+   
+.navbar ul li{
+    display: block;
+    text-decoration: none;
+    text-align: right;
+}
+
+.navbar ul li a{
+	color:black;
+	text-decoration: none;
+	padding:10px 14px;
+    font-size: 20px;
+}
+.navbar ul li ul {
+	font-size: 13px;
+	color: black;
+	display: block;
+}
+.clear{
+    clear:both;
+}
+header{
+    float:left;
+    width:100%;
+    background-color:aqua;
+    align-items:center ;
+    padding: 5px 5px;
+}
+.section1{
+    float:left;
+    width:100%;
+    background-color:gray;
+    align-items:center ;
+    padding: 5px 5px;
+    margin-top: 5px;
+
+  
+}
+.section1 .content{
+    float:left;
+    width:100%;
+    margin-top:60px;
+}
+.section1 .content .left{
+    float:left;
+    width: 100%;
+    padding:0px 0px;
+
+    
+}
+.section1 .content .left .card{
+    padding :50px 15px;
+    background-color: greenyellow;
+    padding:10px 15px;
+}
+.section1 .content .left .card h1{
+    text-align: center;
+}
+
+.section1 .content .left .card p{
+    padding :5px 5px;
+    text-align:center;
+
+}
+
+.section1 .content .right{
+    float:left;
+    width: 100%;
+    padding: 0px 5px;
+}
+.section1 .content .right .card{
+    padding :10px 10px;
+    background-color:palevioletred;
+    margin-bottom: 20px;
+}
+footer{
+    float:left;
+    width:100%;
+    background-color:rgb(83, 80, 80)
+    align-items:center ;
+    padding: 10px 10px;
+    margin-top: 5px;
+    
+}
+.navbar img{
+  float: left;
+}
+footer div ul{
+    list-style: none;
+}
+footer .social{
+    text-align: end;
+}
+footer .social p{
+    color:rebeccapurple;
+}
+footer .payment{
+    text-align: center;
+}
+footer h1{
+  color: red;
+  font-size: 15px;
+}
+.social img{
+  padding: 5px;
+}
+@media screen and (min-width:480px){
+   .navbar ul li{
+      display: inline-block;
+   }
+   .section1 .content .left{
+    
+    width: 50%;
+   
+}
+.section1 .content .right{
+    
+    width: 50%;
+    
+}
+}
+@media screen and (min-width: 768px){
+    .content{
+        background-color: black;
+    }
+}

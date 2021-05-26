@@ -1,0 +1,36 @@
+users
+id integer 
+firstname varchar
+lastName varchar
+email varchar
+password varchar
+isactive  boolean
+
+
+
+CREATE TABLE users(
+    id INTEGER PRIMARY KEY,
+    first_name VARCHAR(30) NOT NULL,
+    last_name VARCHAR(30) NOT NULL ,
+    email VARCHAR(100) UNIQUE NOT NULL ,
+    password VARCHAR(200) NOT NULL ,
+    is_active BOOLEAN NOT NULL DEFAULT (true)
+
+);
+CREATE TABLE user_phone_numbers(
+    id INTEGER PRIMARY KEY  ,
+   user_id INTEGER  NOT NULL,
+    phone_number INTEGER NOT NULL ,
+    type VARCHAR(4)  NOT NULL,
+    CONSTRAINT user_phone_numbers_users_id_foreign FOREIGN KEY (user_id) REFERENCES users(id)
+);
+--
+SELECT
+    u.id,
+    u.first_name,
+    u.last_name,
+    upn.id,
+    upn.user_id,
+    upn.phone_number
+ FROM users u
+LEFT JOIN user_phone_numbers upn ON users.id=user_phone_numbers.user_id;

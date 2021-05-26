@@ -1,0 +1,112 @@
+.heading {
+  position: absolute;
+  top: 10px;
+  left: 500px;
+  text-align: center;
+  color: white;
+}
+.sub-header {
+  font-size: 16px;
+}
+body {
+  position: relative;
+  background-color: #34495e;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.game-container {
+  padding: 20px 30px;
+  position: relative;
+  margin: auto;
+  height: 600px;
+  width: 100%;
+  bottom: -150px;
+  left: 50px;
+}
+
+.figure-container {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  position: absolute;
+  top: 30px;
+  left: 350px;
+}
+.figure-part {
+  display: none;
+}
+.dash-div {
+  margin-top: 155px;
+  padding: 10px;
+  margin-left: 500px;
+  width: 50%;
+}
+.dashes {
+  border-bottom: 4px solid white;
+  width: 25px;
+  display: inline-block;
+  margin-left: 5px;
+}
+.wrong {
+  margin-left: 700px;
+  margin-top: -12px;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+h3 {
+  font-size: 16px;
+
+  color: blue;
+  font-weight: normal;
+  text-align: center;
+}
+.message {
+  background-color: white;
+  color: black;
+  width: 17%;
+  margin-left: 550px;
+  display: none;
+}
+#winBox {
+  width: 15%;
+  height: 100px;
+  background-color: rgb(153, 88, 144);
+  display: none;
+  margin-left: 550px;
+}
+.text {
+  color: black;
+  padding: 5px;
+  text-align: center;
+}
+#lossBox {
+  margin-left: 550px;
+  width: 20%;
+  height: 120px;
+  background-color: rgb(153, 88, 144);
+  display: none;
+}
+
+#win-btn {
+  padding: 8px;
+  margin-left: 58px;
+  background-color: blue;
+  color: white;
+  /* margin-left: 100px; */
+}
+#loss-btn {
+  padding: 8px;
+  margin-left: 90px;
+  background-color: blue;
+  color: white;
+}
